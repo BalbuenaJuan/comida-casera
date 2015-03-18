@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="static/css/flexslider.css"/>
+    <link rel="stylesheet" href="static/css/style.css"/>
+</head>
+<body>
+    <header class="header--left">
+        <a href="http://www.comidacasera.juanbalbuena.info"><img class="logo" src="static/assets/img/logo.png"
+                                                                 alt="Logo"/></a>
+        <div class="header__menu">
+            <a href="http://www.comidacasera.juanbalbuena.info/comer"><img class="item__menu1" src="static/assets/img/item1.png" alt=""/><p class="item__menu--description1">
+            Comer</p></a>
+        </div>
+        <div class="header__menu">
+            <a href="http://www.comidacasera.juanbalbuena.info/carta"><img class="item__menu2" src="static/assets/img/item2.png" alt=""/><p class="item__menu--description2">
+            Carta</p></a>
+        </div>
+        <div class="header__menu">
+            <a href="http://www.comidacasera.juanbalbuena.info/fotos.html"><img class="item__menu3"
+                                                                            src="static/assets/img/item3.png" alt=""/><p class="item__menu--description3">
+            Fotos</p></a>
+        </div>
+        <div class="header__social">
+            <h2>Redes sociales</h2>
+            <div  class="social__item">
+                <img src="static/assets/img/twitter.png" width="60" height="60" alt=""/>
+                <p>Twitter</p>
+            </div>
+            <div class="social__item">
+                <img src="static/assets/img/google-plus.png" width="60" height="60" alt=""/>
+                <p>Google+</p>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="static/assets/img/slide1.jpg" />
+                </li>
+                <li>
+                    <img src="static/assets/img/slide2.jpg" />
+                </li>
+                <li>
+                    <img src="static/assets/img/slide3.jpg" />
+                </li>
+            </ul>
+        </div>
+        <section class="destacados">
+            <article class="article__destacados">
+                <img  class="destacados__img" src="static/assets/img/plato1.jpg" width="320" height="190" alt=""/>
+                <h3>Plato Casero</h3>
+                <p class="destacados__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+                    beatae
+                    itaque
+                    obcaecati
+                    perferendis repellendus sit vero. At culpa delectus dolore doloremque exercitationem, molestias nostrum voluptatem. Adipisci at delectus nemo perferendis!</p>
+            </article>
+            <article class="article__destacados">
+                <img  class="destacados__img" src="static/assets/img/plato2.jpg" width="320" height="190" alt=""/>
+                <h3>Plato Casero</h3>
+                <p class="destacados__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+                    atque
+                    aut
+                    consequuntur
+                    deleniti doloribus expedita, fuga fugit iure magni maiores nesciunt quia repudiandae temporibus. At perspiciatis provident quaerat quisquam voluptatum!</p>
+            </article>
+            <article class="article__destacados">
+                <img  class="destacados__img" src="static/assets/img/plato3.jpg" width="320" height="190" alt=""/>
+                <h3>Plato Casero</h3>
+                <p class="destacados__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, sequi,
+                    voluptatum.
+                    Alias
+                    asperiores commodi consectetur culpa eligendi enim error, ex excepturi labore, laboriosam natus necessitatibus nobis, placeat quis soluta ut!</p>
+            </article>
+        </section>
+        <footer>
+            <h3>Designed By Lacon Labs &copy; 2015 all rights reserved</h3>
+        </footer>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="static/js/jquery.flexslider-min.js"></script>
+    <script src="static/js/main.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+            $('.flexslider').flexslider();
+        });
+    </script>
+</body>
+</html>
